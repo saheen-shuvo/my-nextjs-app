@@ -3,10 +3,10 @@
 import Counter from "@/components/Counter/Counter";
 
 const HomePage = () => {
-  console.log("HEloo Workdl");
+  console.log("Hello World");
   return (
     <div className="text-6xl text-center">
-      <h1>Welcome to Home Boss</h1>
+      <h1 className="">Welcome to Home Boss</h1>
       <Counter></Counter>
     </div>
   );

@@ -7,11 +7,11 @@ const Counter = () => {
       <h1>{counter}</h1>
       <button
         onClick={() => setCounter(counter + 1)}
-        className="mr-5 p-4 border"
+        className="btn btn-dash border"
       >
         +
       </button>{" "}
-      <button onClick={() => setCounter(counter - 1)} className="border p-4">
+      <button onClick={() => setCounter(counter - 1)} className="border btn btn-accent">
         -
       </button>
     </div>
