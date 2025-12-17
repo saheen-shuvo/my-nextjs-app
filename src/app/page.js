@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="text-xl text-center">
       <h1 className="">Welcome to Home Boss</h1>
-      <GalleryPage></GalleryPage>
+      {/* <GalleryPage></GalleryPage> */}
       <Counter></Counter>
     </div>
   );

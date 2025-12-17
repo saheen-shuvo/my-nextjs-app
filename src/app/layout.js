@@ -1,6 +1,7 @@
 import { Jost } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Shared/Navbar/Navbar";
+import Providers from "./provider";
 
 const jost = Jost({
   subsets: ['latin'],
@@ -17,8 +18,10 @@ export default function RootLayout({ children }) {
       <body
         className={jost.className}
       >
-        <Navbar></Navbar>
-        {children}
+        <Providers>
+          <Navbar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
